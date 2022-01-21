@@ -1,7 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-
-import Nav from './Nav'
+import Header from './Header'
 import Landing from './Landing'
 import BoxPlanner from './BoxPlanner'
 import Contact from './Contact'
@@ -12,7 +11,7 @@ function App() {
     
   return (
     <div className='app'>
-    <Nav />
+    <Header />
     <Routes>
       <Route path='/'>
         <Route index element={<Landing />} />

@@ -11,9 +11,9 @@ function Footer () {
   </div> 
   <div>
     <div className="grid grid-flow-col gap-4">
-    <i class="fab fa-instagram fa-3x text-white"></i> 
-    <i class="fab fa-facebook-square fa-3x text-white"></i>
-    <i class="fab fa-youtube fa-3x text-white"></i>
+    <i class="fab fa-instagram fa-3x text-white md:fa-2x md:fa-lg"></i> 
+    <i class="fab fa-facebook-square fa-3x text-white md:fa-2x md:fa-lg"></i>
+    <i class="fab fa-youtube fa-3x text-white md:fa-2x md:fa-lg"></i>
     </div>
   </div> 
   <div>

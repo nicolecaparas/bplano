@@ -1,48 +1,44 @@
-import React, { useState } from 'react'
+import React from 'react'
+import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
-const Nav = () => {
-    const [navOpen, setNavOpen] = useState(false)
+const NavLinksContainer = styled.div`
+height: 100%;
+display: flex;
+align-items: center;
+`;
 
-    const toggleNav = () => {
-      setNavOpen(!navOpen)
-    }
+const LinksWrapper = styled.ul`
+margin: 0;
+padding: 0;
+display: flex;
+height: 100%;
+list-style: none;
+`;
 
-    return (
-        <div>
-            <div className="navbar mb-2 shadow-lg bg-yellow-400 text-neutral-content">
-  <div className="px-2 mx-2 navbar-start">
-    <Link to='/home'>
-    <img className="max-h-20" src= "../images/BPlano_Logo.png" />
-    </Link>
-  </div> 
-  <div className="hidden px-2 mx-2 navbar-center lg:flex">
-    <div className="flex items-stretch">
-      <Link to='/' className="btn btn-ghost btn-sm rounded-btn font-sans">
-              Home
-            </Link> 
-      <Link to='./ourstory' className="btn btn-ghost btn-sm rounded-btn font-sans">
-              Our Story
-            </Link> 
-      <Link to='./boxplanner' className="btn btn-ghost btn-sm rounded-btn font-sans">
-              Box Planner
-            </Link> 
-      <Link to='./contactus' className="btn btn-ghost btn-sm rounded-btn font-sans">
-              Contact
-            </Link>
-    </div>
-  </div> 
-  <div className="navbar-end">
-    <button class="btn btn-square btn-ghost">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">             
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>             
-      </svg>
-    </button>
-  </div>
-</div>
-        </div>
-    )
+const LinkItem = styled.li`
+height: 100%;
+padding: 0 1.1em;
+color: #ffffff;
+font-weight: 500;
+font-size: 16px;
+align-items: center;
+justify-content: center;
+display: flex;
+
+&:hover{
+    color: #F7941D;
 }
+`;
 
-    export default Nav
-    
+export function Nav(props){
+    return <NavLinksContainer>
+        <LinksWrapper>
+        <LinkItem><Link to="/">HOME</Link></LinkItem>
+        <LinkItem><Link to="/ourstory">OUR STORY</Link></LinkItem>
+        <LinkItem><Link to="/boxplanner">BOX PLANNER</Link></LinkItem>
+        <LinkItem><Link to="/contact">CONTACT</Link></LinkItem>
+        
+        </LinksWrapper>
+    </NavLinksContainer>
+}
