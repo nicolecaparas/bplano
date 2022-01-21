@@ -11,6 +11,7 @@ align-items: center;
 `;
 
 const LinksWrapper = styled.ul`
+z-index: 99;
 overflow: auto;
 height: 100%;
 width: 100%;
