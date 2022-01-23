@@ -17,7 +17,7 @@ const RegisterButton = styled.button`
   background-color: #F7941D;
   cursor: pointer;
   &:hover {
-    background-color: #EF5687;
+    background-color: #f59e0b;
   }
   &:not(:last-of-type) {
     margin-right: 7px;
@@ -37,7 +37,7 @@ const LoginButton = styled.button`
   cursor: pointer;
   &:hover {
     color: #fff;
-    background-color: #EF5687;
+    background-color: #f59e0b;
   }
   &:not(:last-of-type) {
     margin-right: 7px;
@@ -46,7 +46,7 @@ const LoginButton = styled.button`
 
 export function Access(props){
 return <AccessContainer>
-    <RegisterButton>REGISTER</RegisterButton>
-      <LoginButton>LOGIN</LoginButton>
+    <RegisterButton className="focus:outline-none focus:outline-shadow">REGISTER</RegisterButton>
+      <LoginButton className="focus:outline-none focus:outline-shadow">LOGIN</LoginButton>
 </AccessContainer>
 }
