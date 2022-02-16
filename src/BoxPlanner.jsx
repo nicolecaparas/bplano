@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function BoxPlanner () {
   return (
@@ -14,22 +15,30 @@ function BoxPlanner () {
         </div>
     </div>
     <div className="lg:flex flex-row justify-center">
-    <div className="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
+    <div className="w-full md:w-1/2 p-6 flex flex-col xl:w-1/4 p-6 flex flex-col ">
          <div className="pt-3 flex items-center justify-center">
-           <p className="leading-normal md: text-center items-center slide-in-bottom-subtitle">
+           <p className="leading-normal md: text-center  justify-center items-center slide-in-bottom-subtitle">
             Do you own a balikbayan box company?</p>
           </div>
             <img src="./images/Shipper.png"/>
-            <button class="btn btn-warning">Shipper</button>
+            <div class="flex justify-center">
+            <Link to='/shipper'>
+            <button class="btn btn-warning items-center">Shipper</button>
+            </Link>
+            </div>
     </div>
 
-    <div className="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
+    <div className="w-full md:w-1/2 p-6 flex flex-col xl:w-1/4 p-6 flex flex-col">
          <div className="pt-3 flex items-center justify-center">
-            <p className="leading-normal md: text-center items-center slide-in-bottom-subtitle">
+            <p className="leading-normal md: text-center justify-center items-center slide-in-bottom-subtitle">
             Do you want to ship a balikbayan box?</p>
           </div>
             <img src="./images/Planner.png"/>
+            <div class="flex justify-center">
+            <Link to='/planner'>
             <button class="btn btn-warning">Planner</button>
+            </Link>
+            </div>
     </div>
    </div>
 </section>
