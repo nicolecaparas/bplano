@@ -7,7 +7,7 @@ function Planner () {
                 class="max-w-screen-xl mt-5 px-8 grid gap-8 md:px-12 lg:px-16 xl:px-32 py-10 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
                 <ul class="steps steps-vertical lg:steps-horizontal">
                          <li class="step step-warning">Register</li>
-                         <li class="step step-warrning">Plan Your Box</li>
+                         <li class="step step-warning">Plan Your Box</li>
                          <li class="step">Pack Your Box</li>
                          <li class="step">Send Your Box</li>
                 </ul>
