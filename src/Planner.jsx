@@ -5,7 +5,12 @@ function Planner () {
         <div class="bg-white text-gray-100 px-8 py-12 ">
               <div
                 class="max-w-screen-xl mt-5 px-8 grid gap-8 md:px-12 lg:px-16 xl:px-32 py-10 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
-        
+                <ul class="steps steps-vertical lg:steps-horizontal">
+                         <li class="step step-warning">Register</li>
+                         <li class="step step-warrning">Plan Your Box</li>
+                         <li class="step">Pack Your Box</li>
+                         <li class="step">Send Your Box</li>
+                </ul>
                 <div class="md:grid grid-cols-6">
                     <div class="col-span-1"></div>
                     <div class="col-span-4">
@@ -38,7 +43,8 @@ function Planner () {
                     <input class="w-full input input-bordered  text-gray-900 mt-2 rounded-lg focus:outline-none focus:shadow-outline"
                       type="date"/>
                 </div>
-        
+
+                 
                 <div class="w-full md:w-1/2 mt-6">
                     <span class="uppercase text-sm text-gray-600 font-bold">Box Quantity</span>
                     <input class="w-full input input-bordered  text-gray-900 mt-2 rounded-lg focus:outline-none focus:shadow-outline"
@@ -46,20 +52,12 @@ function Planner () {
                 </div>
 
                
-                
-
-        
-
-               
-                
-                
                 <div class="mt-6">
                     <span class="uppercase text-sm text-gray-600 font-bold">Overall Budget</span>
                     <input type="range" id="volume" name="volume" min="300" max="5000"></input>
                     <label for="volume">NZD 300</label>
                 </div>
-                
-
+            
              
                 <div class="mt-6">
                 <div class="flex flex-row mx-auto gap-4">
