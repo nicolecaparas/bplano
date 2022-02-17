@@ -4,6 +4,7 @@ import Header from './Header'
 import Landing from './Landing'
 import BoxPlanner from './BoxPlanner'
 import Planner from './Planner'
+import Pack from './Pack'
 import Contact from './Contact'
 import OurStory from './OurStory'
 import Footer from './Footer'
@@ -19,6 +20,7 @@ function App() {
 
         <Route path='/boxplanner' element={<BoxPlanner />} />
         <Route path='/planner' element={<Planner />} />
+        <Route path='/pack' element={<Pack />} />
         <Route path='/ourstory' element={<OurStory />} />
         <Route path='/contact' element={<Contact />} />
       </Route>

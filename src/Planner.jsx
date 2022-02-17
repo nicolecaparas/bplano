@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Planner () {  
     return (
@@ -93,11 +94,12 @@ function Planner () {
                 </div>
 
                 <div class="mt-8 flex justify-end">
+                    <Link to ="/pack">
                     <button
                       class="btn btn-warning no animation focus:outline-none focus:outline-shadow">
                       Confirm
                     </button>
-                
+                    </Link>
                 </div>
                   </div>
                 </div>
