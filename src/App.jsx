@@ -4,6 +4,7 @@ import Header from './Header'
 import Landing from './Landing'
 import BoxPlanner from './BoxPlanner'
 import Shipper from './Shipper'
+import ShipperDetails from './ShipperDetails'
 import Planner from './Planner'
 import Pack from './Pack'
 import SendBox from './SendBox'
@@ -22,6 +23,7 @@ function App() {
 
         <Route path='/boxplanner' element={<BoxPlanner />} />
         <Route path='/shipper' element={<Shipper />} />
+        <Route path='/shipperdetails' element={<ShipperDetails />} />
         <Route path='/planner' element={<Planner />} />
         <Route path='/pack' element={<Pack />} />
         <Route path='/sendbox' element={<SendBox />} />

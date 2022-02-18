@@ -132,25 +132,7 @@ function Shipper () {
                       </div>
                     </div>
 
-                    <div class="w-full mt-6">
-                <br/><input type="checkbox" name="checked" class="checkbox"/>
-                   <span>Option C Box</span>
-                    <input class="w-full input input-bordered text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                      type="text" placeholder="Box Name C" />
-                      <div class="flex flex-row mx-auto gap-4">
-                    <input class="w-full input input-bordered text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                      type="text" placeholder="Height" />
-                    <input class="w-full input input-bordered text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                      type="text" placeholder="Width" />
-                      <input class="w-full input input-bordered text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                      type="text" placeholder="Depth" />
-                        <select  placeholder="All New Zealand" class="w-full input input-bordered  text-gray-900 mt-2 rounded-lg focus:outline-none focus:shadow-outline">
-                        <option>cm</option>
-                        <option>mm</option>
-                        <option>in</option>
-                        </select>
-                      </div>
-                    </div>
+
 
 
                 <div class="mt-8 flex justify-end">
