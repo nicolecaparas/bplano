@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Shipper () {  
     return (
-        <div class="bg-white text-gray-100 px-8 py-12 ">
+        <div class="bg-white text-gray-100 px-8 py-12 md:mb-60">
               <div
                 class="max-w-screen-xl mt-5 px-8 grid gap-8 md:px-12 lg:px-16 xl:px-32 py-10 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
                 <ul class="steps steps-vertical lg:steps-horizontal">
@@ -15,7 +15,7 @@ function Shipper () {
                     <div class="col-span-1"></div>
                     <div class="col-span-4">
                 <div class="text-gray-700 mt-8">
-                      Hi,<span class="underline"> Username!</span> 
+                      <p>Hi, <u>Username</u>!</p>
                 </div>
                 
                 <div class="mt-6">

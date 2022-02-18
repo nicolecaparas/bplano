@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function BoxPlanner () {
   return (
-<section className="bg-white py-8">
+<section className="bg-white py-8 md:mb-60">
   <div className="container mx-auto flex items-center flex wrap pt-2 pb-4">
    
     <div className="w-full z-30 top-0 px-6 py-1">

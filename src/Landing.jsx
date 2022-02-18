@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Landing () {  
   return (  
 
-    <div className="container md:mx-auto flex flex-wrap flex-col md:flex-row items-center">
+    <div className="container md:mx-auto flex flex-wrap flex-col md:flex-row items-center md:mb-60">
         <div className="flex flex-col w-full lg:w-2/5 mt-10 lg:mt-0 justify-center px-8">
             <h1 className="font-bold leading-tight my-4 text-4xl md:text-5xl text-amber-400 font-bold leading-tight text-center slide-in-bottom-h1 lg:text-left px-3">
             Send your box the easy way! 
