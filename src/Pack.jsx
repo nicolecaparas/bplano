@@ -41,9 +41,9 @@ function Pack () {
 
                 <div class="w-full mt-6 mb-8">
                 <span class="uppercase text-sm text-gray-600 font-bold">Box 1 Content:</span>
-  <table class="table table-compact w-full text-center">
+  <table class="table table-compact w-full">
       {/* head */}
-    <thead>
+    <thead className='text-center'>
       <tr>
         <th>Action</th>
         <th>Family Member</th>
@@ -71,16 +71,18 @@ function Pack () {
           Gift Name
         </td>
 
-        <td>$0.00</td>
-        <td>
-            <p>- 1 +</p>
+        <td className='text-center'>$0.00</td>
+        <td className='text-center'>
+        <p>
+            <i class="fa fa-chevron-circle-down"></i> 1 <i class="fa fa-chevron-circle-up"></i>
+            </p>
         </td>
-        <th>
+        <td className='text-center'>
           <label>
             <input type="checkbox" class="checkbox"></input>
           </label>
-        </th>
-        <td>Add Note</td>
+        </td>
+        <td className='text-center'>Add Note</td>
       </tr>
       {/* row 2 */}
       <tr>
@@ -98,16 +100,18 @@ function Pack () {
           Gift Name
         </td>
 
-        <td>$0.00</td>
-        <td>
-            <p>- 1 +</p>
+        <td className='text-center'>$0.00</td>
+        <td className='text-center'>
+            <p>
+            <i class="fa fa-chevron-circle-down"></i> 1 <i class="fa fa-chevron-circle-up"></i>
+            </p>
         </td>
-        <th>
+        <td className='text-center'>
           <label>
             <input type="checkbox" class="checkbox"></input>
           </label>
-        </th>
-        <td>Add Note</td>
+        </td>
+        <td className='text-center'>Add Note</td>
       </tr>
     </tbody>
     
