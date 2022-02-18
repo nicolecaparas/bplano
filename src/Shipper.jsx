@@ -78,24 +78,29 @@ function Shipper () {
                     
                 </div>
                 <div class="mt-6">
-                <span class="uppercase text-sm text-gray-600 font-bold mr-2">Service Available</span>
-                    <input type="radio" name="radio-1" class="align-center radio"/><label class="p-3">Pick-up</label>
-                    <input type="radio" name="radio-1" class="align-center radio"/><label class="p-3">Drop-off</label>
-                    <input type="radio" name="radio-1" class="align-center radio"/><label class="p-3">Both</label>
-                    </div>
+                    <p>
+                <label class="uppercase text-sm text-gray-600 font-bold mr-2">Service Available</label>
+                    <input type="radio" name="radio-1" class="align-middle radio"/><label class="p-3">Pick-up</label>
+                    <input type="radio" name="radio-1" class="align-middle radio"/><label class="p-3">Drop-off</label>
+                    <input type="radio" name="radio-1" class="align-middle radio"/><label class="p-3">Both</label>
+                   </p>
+                </div>
 
                 <div class="mt-6">
+                    <p>
                 <span class="uppercase text-sm text-gray-600 font-bold mr-2">Freight</span>
-                    <input type="radio" name="radio-2" class="align-center radio"/><label class="p-3">Air</label>
-                    <input type="radio" name="radio-2" class="align-center radio"/><label class="p-3">Sea</label>
-                    <input type="radio" name="radio-2" class="align-center radio"/><label class="p-3">Both</label>
+                    <input type="radio" name="radio-2" class="align-middle radio"/><label class="p-3">Air</label>
+                    <input type="radio" name="radio-2" class="align-middle radio"/><label class="p-3">Sea</label>
+                    <input type="radio" name="radio-2" class="align-middle radio"/><label class="p-3">Both</label>
+                    </p>
                     </div>
+                    
 
                  <div class="w-full mt-6">
                 <span class="uppercase text-sm text-gray-600 font-bold mr-2">Box Sizes</span>
-                <div></div>
-                <br/><input type="checkbox" name="checked" class="checkbox"/>
-                   <span class="p-2">Option A Box</span>
+                <div></div><br/>
+                <p><input type="checkbox" name="checked" class="checkbox align-middle"/>
+                   <label class="p-2">Option A Box</label></p>
                     <input class="w-full input input-bordered text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                       type="text" placeholder="Box Name A" />
                       <div class="flex flex-row mx-auto gap-4">
@@ -114,7 +119,7 @@ function Shipper () {
                     </div>
 
                     <div class="w-full mt-6">
-                <br/><input type="checkbox" name="checked" class="checkbox"/>
+                <br/><input type="checkbox" name="checked" class="checkbox align-middle"/>
                    <span class="p-2">Option B Box</span>
                     <input class="w-full input input-bordered text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                       type="text" placeholder="Box Name B" />

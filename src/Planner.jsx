@@ -55,8 +55,8 @@ function Planner () {
                
                 <div class="mt-6">
                     <span class="uppercase text-sm text-gray-600 font-bold pr-5">Overall Budget</span>
-                    <input type="range" id="volume" name="volume" min="300" max="5000" class="px-10"></input>
-                    <label for="volume">NZD 300</label>
+                    <input type="range" id="volume" name="volume" min="300" max="5000"></input>
+                    <label for="volume" class="p-2">NZD 300</label>
                 </div>
             
              
