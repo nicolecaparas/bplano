@@ -79,16 +79,16 @@ function Shipper () {
                 </div>
                 <div class="mt-6">
                 <span class="uppercase text-sm text-gray-600 font-bold mr-2">Service Available</span>
-                    <input type="radio" name="radio-1" class="radio"/><span>Pick-up</span>
-                    <input type="radio" name="radio-1" class="radio"/><span>Drop-off</span>
-                    <input type="radio" name="radio-1" class="radio"/><span>Both</span>
+                    <input type="radio" name="radio-1" class="align-center radio"/><label class="p-3">Pick-up</label>
+                    <input type="radio" name="radio-1" class="align-center radio"/><label class="p-3">Drop-off</label>
+                    <input type="radio" name="radio-1" class="align-center radio"/><label class="p-3">Both</label>
                     </div>
 
                 <div class="mt-6">
                 <span class="uppercase text-sm text-gray-600 font-bold mr-2">Freight</span>
-                    <input type="radio" name="radio-2" class="radio"/><span>Air</span>
-                    <input type="radio" name="radio-2" class="radio"/><span>Sea</span>
-                    <input type="radio" name="radio-2" class="radio"/><span>Both</span>
+                    <input type="radio" name="radio-2" class="align-center radio"/><label class="p-3">Air</label>
+                    <input type="radio" name="radio-2" class="align-center radio"/><label class="p-3">Sea</label>
+                    <input type="radio" name="radio-2" class="align-center radio"/><label class="p-3">Both</label>
                     </div>
 
                  <div class="w-full mt-6">
@@ -154,7 +154,7 @@ function Shipper () {
 
 
                 <div class="mt-8 flex justify-end">
-                    <Link to ="/pack">
+                    <Link to ="/shipperdetails">
                     <button
                       class="btn btn-warning no animation focus:outline-none focus:outline-shadow">
                       Confirm
