@@ -16,7 +16,7 @@ function Planner () {
                     <div class="col-span-1"></div>
                     <div class="col-span-4">
                 <div class="text-gray-700 mt-8">
-                      Hi,<span class="underline"> Username!</span> 
+                      Hi,<span class="underline">Username!</span> 
                 </div>
                 <div >
                 <div class="w-full  mt-6">
@@ -54,15 +54,15 @@ function Planner () {
 
                
                 <div class="mt-6">
-                    <span class="uppercase text-sm text-gray-600 font-bold">Overall Budget</span>
-                    <input type="range" id="volume" name="volume" min="300" max="5000"></input>
+                    <span class="uppercase text-sm text-gray-600 font-bold pr-5">Overall Budget</span>
+                    <input type="range" id="volume" name="volume" min="300" max="5000" class="px-10"></input>
                     <label for="volume">NZD 300</label>
                 </div>
             
              
                 <div class="mt-6">
                 <div class="flex flex-row mx-auto gap-4">
-                    <span class="uppercase text-sm text-gray-600 font-bold">Location</span>
+                    <span class="uppercase text-sm text-gray-600 font-bold mt-5">Location</span>
                     <select  placeholder="All New Zealand" class="w-full input input-bordered  text-gray-900 mt-2 rounded-lg focus:outline-none focus:shadow-outline">
                         <option>All New Zealand</option>
                         <option>Northland</option>

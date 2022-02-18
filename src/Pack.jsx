@@ -41,23 +41,23 @@ function Pack () {
 
                 <div class="w-full mt-6 mb-8">
                 <span class="uppercase text-sm text-gray-600 font-bold">Box 1 Content:</span>
-  <table class="table table-compact w-full">
+  <table class="table table-compact w-full text-center">
       {/* head */}
     <thead>
       <tr>
-        <th>Add | Edit | Delete</th>
+        <th>Action</th>
         <th>Family Member</th>
         <th>Gift Item</th>
         <th>Gift Cost</th>
         <th>Gift Qty</th>
         <th>Packed?</th>
-        <th>Notes</th>
+        <th class="px-20">Notes</th>
       </tr>
     </thead>
     <tbody>
       {/* row 1 */}
       <tr>
-        <td>Add | Edit | Delete</td>
+        <td><i class="fa fa-plus"></i> | <i class="fa fa-pencil"></i> | <i class="fa fa-trash"></i></td>
         <td>
           <div class="flex items-center space-x-3">
             <div>
@@ -84,7 +84,7 @@ function Pack () {
       </tr>
       {/* row 2 */}
       <tr>
-        <td>Add | Edit | Delete</td>
+      <td><i class="fa fa-plus"></i> | <i class="fa fa-pencil"></i> | <i class="fa fa-trash"></i></td>
         <td>
           <div class="flex items-center space-x-3">
             <div>

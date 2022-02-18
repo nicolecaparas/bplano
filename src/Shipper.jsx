@@ -33,7 +33,7 @@ function Shipper () {
                              
                 <div class="mt-6">
                 <div class="flex flex-row mx-auto gap-4">
-                    <span class="uppercase text-sm text-gray-600 font-bold">Location</span>
+                    <span class="uppercase text-sm text-gray-600 font-bold mt-5">Location</span>
                     <select  placeholder="All New Zealand" class="w-full input input-bordered  text-gray-900 mt-2 rounded-lg focus:outline-none focus:shadow-outline">
                         <option>All New Zealand</option>
                         <option>Northland</option>
@@ -93,8 +93,9 @@ function Shipper () {
 
                  <div class="w-full mt-6">
                 <span class="uppercase text-sm text-gray-600 font-bold mr-2">Box Sizes</span>
+                <div></div>
                 <br/><input type="checkbox" name="checked" class="checkbox"/>
-                   <span>Option A Box</span>
+                   <span class="p-2">Option A Box</span>
                     <input class="w-full input input-bordered text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                       type="text" placeholder="Box Name A" />
                       <div class="flex flex-row mx-auto gap-4">
@@ -114,7 +115,7 @@ function Shipper () {
 
                     <div class="w-full mt-6">
                 <br/><input type="checkbox" name="checked" class="checkbox"/>
-                   <span>Option B Box</span>
+                   <span class="p-2">Option B Box</span>
                     <input class="w-full input input-bordered text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                       type="text" placeholder="Box Name B" />
                       <div class="flex flex-row mx-auto gap-4">
