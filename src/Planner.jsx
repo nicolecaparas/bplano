@@ -1,8 +1,21 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-function Planner () {  
-    return (
+export default class Planner extends Component { 
+    componentDidMount() {
+        const volume = document.querySelector("#volume")
+        const volumeLabel = document.querySelector("#volume-label")
+        
+        volume.addEventListener("change", function(e){
+        const volumeLabelValue = `${e.target.value} NZD`
+        
+       volumeLabel.innerHTML = volumeLabelValue
+
+        })
+    }   
+
+    render() {
+        return (
         <div class="bg-white text-gray-100 px-8 py-12 md:mb-60 ">
               <div
                 class="max-w-screen-xl mt-5 px-8 grid gap-8 md:px-12 lg:px-16 xl:px-32 py-10 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
@@ -55,8 +68,8 @@ function Planner () {
                
                 <div class="mt-6">
                     <span class="uppercase text-sm text-gray-600 font-bold pr-5">Overall Budget</span>
-                    <input type="range" id="volume" name="volume" min="300" max="5000"></input>
-                    <label for="volume" class="p-2">NZD 300</label>
+                    <input type="range" id="volume" name="volume" min="300" max="5000" class="px-20"></input>
+                    <label for="volume" id="volume-label" class="p-2">-</label>
                 </div>
             
              
@@ -109,9 +122,6 @@ function Planner () {
                 
                </div>
                 </div>
-    
-
-    )
+        )
+    }
 }
-
-    export default Planner
