@@ -67,9 +67,9 @@ export default class Planner extends Component {
 
                
                 <div class="mt-6">
-                    <span class="uppercase text-sm text-gray-600 font-bold pr-5">Overall Budget</span>
+                    <span class="uppercase text-sm text-gray-600 font-bold pr-5">Budget(per Box)</span>
                     <input type="range" id="volume" name="volume" min="300" max="5000" class="px-20"></input>
-                    <label for="volume" id="volume-label" class="p-2">-</label>
+                    <label for="volume" id="volume-label" class="p-2">300 NZD</label>
                 </div>
             
              
