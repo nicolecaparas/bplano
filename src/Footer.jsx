@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import SocialIcon from './Footer/SocialIcon'
 
 function Footer () {
   return (
@@ -11,9 +12,9 @@ function Footer () {
   </div> 
   <div>
     <div className="grid grid-flow-col gap-4">
-    <i class="fab fa-instagram fa-3x text-white md:fa-2x md:fa-lg"></i> 
-    <i class="fab fa-facebook-square fa-3x text-white md:fa-2x md:fa-lg"></i>
-    <i class="fab fa-youtube fa-3x text-white md:fa-2x md:fa-lg"></i>
+        <SocialIcon iconName="instagram"/>
+        <SocialIcon iconName="facebook-square"/>
+        <SocialIcon iconName="youtube"/>
     </div>
   </div> 
   <div>

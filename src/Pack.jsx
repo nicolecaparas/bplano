@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import FamilyMemberRow from './Pack/FamilyMemberRow';
 
 function Pack () {  
     return (
@@ -19,8 +20,6 @@ function Pack () {
                       Hi,<span class="underline"> Username!</span> 
                 </div>
                 <div>
-              
-
                  
                 <div class="w-full md:w-1/2 mt-6">
                     <span class="uppercase text-sm text-gray-600 font-bold">Box Size</span>
@@ -56,63 +55,10 @@ function Pack () {
     </thead>
     <tbody>
       {/* row 1 */}
-      <tr>
-        <td><i class="fa fa-plus"></i> | <i class="fa fa-pencil"></i> | <i class="fa fa-trash"></i></td>
-        <td>
-          <div class="flex items-center space-x-3">
-            <div>
-              <div class="font-bold">John Doe</div>
-              <div class="text-sm opacity-50">Father</div>
-            </div>
-          </div>
-        </td>
-
-        <td>
-          Gift Name
-        </td>
-
-        <td className='text-center'>$0.00</td>
-        <td className='text-center'>
-        <p>
-            <i class="fa fa-chevron-circle-down"></i> 1 <i class="fa fa-chevron-circle-up"></i>
-            </p>
-        </td>
-        <td className='text-center'>
-          <label>
-            <input type="checkbox" class="checkbox"></input>
-          </label>
-        </td>
-        <td className='text-center'>Add Note</td>
-      </tr>
+        <FamilyMemberRow giftName="Banana" />
+        <FamilyMemberRow  giftName="Apple" />
+        <FamilyMemberRow  giftName="Orange" />
       {/* row 2 */}
-      <tr>
-      <td><i class="fa fa-plus"></i> | <i class="fa fa-pencil"></i> | <i class="fa fa-trash"></i></td>
-        <td>
-          <div class="flex items-center space-x-3">
-            <div>
-              <div class="font-bold">Jane Doe</div>
-              <div class="text-sm opacity-50">Mother</div>
-            </div>
-          </div>
-        </td>
-
-        <td>
-          Gift Name
-        </td>
-
-        <td className='text-center'>$0.00</td>
-        <td className='text-center'>
-            <p>
-            <i class="fa fa-chevron-circle-down"></i> 1 <i class="fa fa-chevron-circle-up"></i>
-            </p>
-        </td>
-        <td className='text-center'>
-          <label>
-            <input type="checkbox" class="checkbox"></input>
-          </label>
-        </td>
-        <td className='text-center'>Add Note</td>
-      </tr>
     </tbody>
     
   </table>
